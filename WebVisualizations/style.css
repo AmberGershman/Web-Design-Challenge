@@ -23,17 +23,32 @@ body {
 .card {
     margin-top: 5%;
     margin-left: 5%;
-    
+    float: left;
+    padding: 3%;
+    display: inline;
 }
-.card h4 {
+.card h2 {
     font-family: 'Montserrat', sans-serif;
 }
 .card p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
+    float: right;
+    display: inline;
+}
+.card img {
+    float: left;
+    max-width: 50%;
+    height: auto;
 }
 
-.wrapper {
-    background-color: white;
+#sidebar-content {
     color: #353535;
-    float: right;
-}
+    margin-right: 10%;
+    display: inline-flexbox;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .row-fluid p{
+    font-size: 12px;
+    text-align: left;
+  }
