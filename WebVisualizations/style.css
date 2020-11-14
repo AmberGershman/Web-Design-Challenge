@@ -1,0 +1,39 @@
+body {
+    background-color: #3C6E71;
+}
+.jumbotron {
+    background-color: white;
+    border-bottom-left-radius: 50% 25%;
+    border-bottom-right-radius: 50% 25%;
+
+}
+.jumbotron h1 {
+    color: #353535;
+    margin-left: 5%;    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+.dropdown button{
+    background-color: white;
+    color: #353535;
+    float: right;
+    margin-right: 5%;
+    border-color: transparent;
+}
+.card {
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+.card h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+.card p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrapper {
+    background-color: white;
+    color: #353535;
+    float: right;
+}
