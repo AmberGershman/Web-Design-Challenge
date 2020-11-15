@@ -42,13 +42,43 @@ body {
 }
 
 #sidebar-content {
-    color: #353535;
-    margin-right: 10%;
-    display: inline-flexbox;
-    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin-top: 12%;
+}
 
+#sidebar-content h5 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.img_img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .2s ease;
+    backface-visibility: hidden;
   }
-  .row-fluid p{
-    font-size: 12px;
-    text-align: left;
+.middle {
+    transition: .2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; 
+  }
+.img_wrap:hover .img_img {
+    opacity: .2;
+  }
+.img_wrap:hover .middle {
+    opacity: .9;
+  }
+  
+.img_wrap:hover .img__description {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #353535;
+    font-size: 16px;
+    padding: 40px;
   }
