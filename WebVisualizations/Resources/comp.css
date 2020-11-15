@@ -1,0 +1,36 @@
+body {
+    background-color: #3C6E71;
+}
+.jumbotron {
+    background-color: white;
+    border-bottom-left-radius: 50% 25%;
+    border-bottom-right-radius: 50% 25%;
+
+}
+.jumbotron h1 {
+    color: #353535;
+    margin-left: 5%;    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+.dropdown button{
+    background-color: white;
+    color: #353535;
+    float: right;
+    margin-right: 5%;
+    border-color: transparent;
+}
+.card-deck {
+    margin: 5%;
+    /* border-radius: 50%;
+    border-color:#353535;
+    border-width: 10px; */
+}
+.card-deck h4 {
+    text-align: center;
+    color: #353535;
+}
+.card-deck img {
+    /* max-width: 70%; */
+    /* margin-left: 10%; */
+}
