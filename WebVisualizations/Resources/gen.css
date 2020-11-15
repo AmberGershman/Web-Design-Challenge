@@ -1,0 +1,87 @@
+body {
+    background-color: #3C6E71;
+}
+.jumbotron {
+    background-color: white;
+    border-bottom-left-radius: 50% 25%;
+    border-bottom-right-radius: 50% 25%;
+
+}
+.jumbotron h1 {
+    color: #353535;
+    margin-left: 5%;    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+.dropdown button{
+    background-color: white;
+    color: #353535;
+    float: right;
+    margin-right: 5%;
+    border-color: transparent;
+}
+.card {
+    margin-top: 5%;
+    margin-left: 5%;
+    float: left;
+     display: inline;
+     padding: 3%;
+}
+.card h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+.card p {
+    font-family: 'Trebuchet MS', sans-serif;
+    float: right;
+    display: inline;
+}
+
+#main img {
+    width: 65%;
+    height: auto;
+}
+
+#sidebar-content {
+    position: relative;
+    margin-top: 12%;
+}
+
+#sidebar-content h5 {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+.img_img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .2s ease;
+    backface-visibility: hidden;
+    float: left;
+    max-width: 50%;
+    height: auto;
+  }
+.middle {
+    transition: .2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; 
+  }
+.img_wrap:hover .img_img {
+    opacity: .2;
+  }
+.img_wrap:hover .middle {
+    opacity: .9;
+  }
+  
+.img_wrap:hover .img__description {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #353535;
+    font-size: 16px;
+    padding: 40px;
+  }
