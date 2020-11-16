@@ -18,29 +18,38 @@
 <body>
     <!--Navigation/Header-->
     <div class="jumbotron">
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Menu
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="../index.html">Home</a>
-                <div class="dropdown-divider"></div>
-                <h5 class="dropdown-header">Index Plots</h5>
-                <a class="dropdown-item" href="support.html">Social Support</a>
-                <a class="dropdown-item" href="generosity.html" style="background-color: #284B63; color: white;">Generosity</a>
-                <a class="dropdown-item" href="gdp.html">GDP per Capita</a>
-                <a class="dropdown-item" href="health.html">Health/Life Expectancy</a>
-                <a class="dropdown-item" href="autonomy.html">Autonomy</a>
-                <a class="dropdown-item" href="corruption.html">Corruption</a>
-                <div class="dropdown-divider"></div>
-                <h5 class="dropdown-header">Analysis/Data</h5>
-                <a class="dropdown-item" href="comparisons.html">Comparisons</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="data.html">Data Source</a>
-            </div>
-            <h1>The Unbearable Happiness of Finland</h1>
+        <div class="navbar">
+            <a href="../index.html">
+                <h1>The Unbearable Happiness of Finland</h1>
+            </a>
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse dropleft" id="navbarNavDropdown">
+                    <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Menu
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+                            <h5 class="dropdown-header">Index Plots</h5>
+                            <a class="dropdown-item" href="support.html">Social Support</a>
+                            <a class="dropdown-item" href="generosity.html"
+                                style="color: white; background-color:#353535 ;">Generosity</a>
+                            <a class="dropdown-item" href="gdp.html">GDP per Capita</a>
+                            <a class="dropdown-item" href="health.html">Health/Life Expectancy</a>
+                            <a class="dropdown-item" href="autonomy.html">Autonomy</a>
+                            <a class="dropdown-item" href="corruption.html">Corruption</a>
+                            <div class="dropdown-divider"></div>
+                            <h5 class="dropdown-header">Analysis/Data</h5>
+                            <a class="dropdown-item" href="comparisons.html">Comparisons</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="data.html">Data Source</a>
+                        </div>
+                    </a>
+
+                </div>
+            </nav>
+
         </div>
+
     </div>
 
     <div class="container-fluid">
@@ -48,16 +57,26 @@
             <div class="col-sm-12 col-md-8">
                 <div class="card" style="width: 70rem;" id="main">
                     <h2>Happiness and Generosity</h2>
-                    <h5>Does helping others help yourself?</h5>
+                    <br>
+                    <h6><strong>Question: </strong>Have you donated to charity in the last month?</h6>
                     <br>
                     <p style="float: left;"><img src="assets/images/generosity.png" style="float: right;">
-                        Researchers determined the basis of "generosity" as being a monetary
-                        contribution to a charitable orgnization in the previous 30 days. <strong>Essentially, did you
-                            give to charity in the last month?</strong><br><br>
-                        As we can see in the plot to the right, there is a fairly even distribution of happiness scores
-                        and a slim majority of respondents across all nations surveyed did not make a charitable
-                        contribution. However, the darkest plotted countries (again, those that rank the highest in
-                        happiness) have a <i>very</i> slight tendency to give more than less happy counterparts.
+                        UN Researchers established the metric of having made a charitable contribution in the last 30
+                        days as the standard for generosity. Across all nations surveyed, roughly 20% of respondents
+                        answered in the affirmative – meaning that 80% of participants did not donate to charity.
+                        However, we can see a slight shift towards 30% in the happiest countries.
+                        <br>
+                        <br>
+                        Whether that trend is due to greater financial stability, more community programs available, or
+                        a larger emphasis on social welfare is unclear. An interesting scatter plot would examine the
+                        GDP per capita and social support against generosity to gain more insight.
+                        <br>
+                        <br>
+                        I do believe the question posed may limit the scope of the very notion of generosity. While
+                        financial contributions are an effective avenue to “charity”, it is certainly not the only
+                        route. Volunteering time and resources are mainstays of communities, and without considering the
+                        impact of non-financial donations, the researchers have skewed the results of this metric.
+
                     </p>
                 </div>
             </div>

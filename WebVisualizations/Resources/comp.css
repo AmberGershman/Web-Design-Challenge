@@ -5,23 +5,28 @@ body {
     background-color: white;
     border-bottom-left-radius: 50% 25%;
     border-bottom-right-radius: 50% 25%;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 0%;
 
 }
-.jumbotron h1 {
+.navbar a h1 {
     color: #353535;
-    margin-left: 5%;    
-    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
+    display: inline-block;
+    margin-left: 0%;
 }
-.dropdown button{
-    background-color: white;
+
+.nav-link {
+    background-color: transparent;
     color: #353535;
-    float: right;
-    margin-right: 5%;
-    border-color: transparent;
+    z-index: 1;
+}
+.navbar .nav-link a {
+    font-family: 'Montserrat', sans-serif;
+    color: #353535;
 }
 .card-deck {
-    margin: 5%;
+    /* margin: 5%; */
     /* border-radius: 50%;
     border-color:#353535;
     border-width: 10px; */
@@ -29,8 +34,4 @@ body {
 .card-deck h4 {
     text-align: center;
     color: #353535;
-}
-.card-deck img {
-    /* max-width: 70%; */
-    /* margin-left: 10%; */
 }

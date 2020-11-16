@@ -18,30 +18,36 @@
 <body>
     <!--Navigation/Header-->
     <div class="jumbotron">
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Menu
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="../index.html">Home</a>
-                <div class="dropdown-divider"></div>
-                <h5 class="dropdown-header">Index Plots</h5>
-                <a class="dropdown-item" href="support.css">Social Support</a>
-                <a class="dropdown-item" href="generosity.html">Generosity</a>
-                <a class="dropdown-item" href="gdp.html">GDP per Capita</a>
-                <a class="dropdown-item" href="health.html" style="background-color: #284B63; color: white;">Health/Life
-                    Expectancy</a>
-                <a class="dropdown-item" href="autonomy.html">Autonomy</a>
-                <a class="dropdown-item" href="corruption.html">Corruption</a>
-                <div class="dropdown-divider"></div>
-                <h5 class="dropdown-header">Analysis/Data</h5>
-                <a class="dropdown-item" href="comparisons.html">Comparisons</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="data.html">Data Source</a>
-            </div>
-            <h1>The Unbearable Happiness of Finland</h1>
+        <div class="navbar">
+            <a href="../index.html">
+                <h1>The Unbearable Happiness of Finland</h1>
+            </a>
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse dropleft" id="navbarNavDropdown">
+                    <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Menu
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <h5 class="dropdown-header">Index Plots</h5>
+                            <a class="dropdown-item" href="support.html">Social Support</a>
+                            <a class="dropdown-item" href="generosity.html">Generosity</a>
+                            <a class="dropdown-item" href="gdp.html">GDP per Capita</a>
+                            <a class="dropdown-item" href="health.html">Health/Life Expectancy</a>
+                            <a class="dropdown-item" href="autonomy.html">Autonomy</a>
+                            <a class="dropdown-item" href="corruption.html">Corruption</a>
+                            <div class="dropdown-divider"></div>
+                            <h5 class="dropdown-header">Analysis/Data</h5>
+                            <a class="dropdown-item" href="comparisons.html">Comparisons</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="data.html">Data Source</a>
+                        </div>
+                    </a>
+
+                </div>
+            </nav>
+
         </div>
+
     </div>
 
     <div class="container-fluid">
@@ -49,9 +55,27 @@
             <div class="col-sm-12 col-md-8">
                 <div class="card" style="width: 70rem;" id="main">
                     <h2>Happiness and Health</h2>
-                    <h5></h5>
                     <br>
-                    <p style="float: left;"><img src="assets/images/health.png" style="float: right;">
+                    <h6><strong>Metric: </strong>“The time series of healthy life expectancy at birth are constructed based on data from
+                        the World Health Organization (WHO) Global Health Observatory data repository, with data
+                        available for 2005, 2010, 2015, and 2016.” WHR 2019, pg. 25</h6>
+                    <br>
+                    <p style="float: left;"><img src="assets/images/health.png" style="float: right;">Again, researchers
+                        looked to a quantifiable measurement in relation to a nation’s self-identified happiness scores
+                        and again, this plots a more liner path. Lower scoring countries were substantially more likely
+                        to have truncated life expectancy ages, while higher scoring countries enjoyed higher life
+                        expectancies. It is notable that the impact of health on happiness is not as demonstrably linked
+                        to a happiness score than GDP per capita. In fact, the life expectancy of countries with a
+                        happiness score between 4-5 was substantially more varied (between 0.0 and 0.9) than the nations
+                        with happiness scores below 4 (0.1 and 0.6).
+                        <br>
+                        <br>
+                        The benefits of earning a fair and decent wage and anticipating a long and healthy life are
+                        clearly correlative to a greater happiness score. These basic measures speak to the trust and
+                        stability one has, both within their family and their very existence. It is a completely logical
+                        extension that those that have not been afforded the advantages of comfort and ease equally do
+                        not enjoy the same contentment in life.
+
 
                     </p>
                 </div>

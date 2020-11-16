@@ -18,30 +18,37 @@
 <body>
     <!--Navigation/Header-->
     <div class="jumbotron">
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Menu
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="../index.html">Home</a>
-                <div class="dropdown-divider"></div>
-                <h5 class="dropdown-header">Index Plots</h5>
-                <a class="dropdown-item" href="support.css">Social Support</a>
-                <a class="dropdown-item" href="generosity.html">Generosity</a>
-                <a class="dropdown-item" href="gdp.html" style="background-color: #284B63; color: white;">GDP per
-                    Capita</a>
-                <a class="dropdown-item" href="health.html">Health/Life Expectancy</a>
-                <a class="dropdown-item" href="autonomy.html">Autonomy</a>
-                <a class="dropdown-item" href="corruption.html">Corruption</a>
-                <div class="dropdown-divider"></div>
-                <h5 class="dropdown-header">Analysis/Data</h5>
-                <a class="dropdown-item" href="comparisons.html">Comparisons</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="data.html">Data Source</a>
-            </div>
-            <h1>The Unbearable Happiness of Finland</h1>
+        <div class="navbar">
+            <a href="../index.html">
+                <h1>The Unbearable Happiness of Finland</h1>
+            </a>
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse dropleft" id="navbarNavDropdown">
+                    <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Menu
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <h5 class="dropdown-header">Index Plots</h5>
+                            <a class="dropdown-item" href="support.html">Social Support</a>
+                            <a class="dropdown-item" href="generosity.html">Generosity</a>
+                            <a class="dropdown-item" href="gdp.html"
+                                style="color: white; background-color:#353535 ;">GDP per Capita</a>
+                            <a class="dropdown-item" href="health.html">Health/Life Expectancy</a>
+                            <a class="dropdown-item" href="autonomy.html">Autonomy</a>
+                            <a class="dropdown-item" href="corruption.html">Corruption</a>
+                            <div class="dropdown-divider"></div>
+                            <h5 class="dropdown-header">Analysis/Data</h5>
+                            <a class="dropdown-item" href="comparisons.html">Comparisons</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="data.html">Data Source</a>
+                        </div>
+                    </a>
+
+                </div>
+            </nav>
+
         </div>
+
     </div>
 
     <div class="container-fluid">
@@ -49,9 +56,19 @@
             <div class="col-sm-12 col-md-8">
                 <div class="card" style="width: 70rem;" id="main">
                     <h2>Happiness and Gross National Product per Cpaita</h2>
-                    <h5></h5>
                     <br>
-                    <p style="float: left;"><img src="assets/images/gdp.png" style="float: right;">
+                    <h6><Strong>Metric: </Strong>Researchers “extended the GDP time series from 2017 to 2018 using
+                        country specific forecasts of real GDP growth from the OECD Economic Outlook No. 104 (Edition
+                        November 2018) and the World Bank’s Global Economic Prospects (Last Updated: 06/07/2018), after
+                        adjustment for population growth.” – WHR 2019, pg. 25</h6>
+                    <br>
+                    <p style="float: left;"><img src="assets/images/gdp.png" style="float: right;">Potentially
+                        unsurprisingly, the scatter plot provides the linear relationship between happiness scores and
+                        an independent variable within the entire dataset. With the exception of a few outliers, who
+                        earn less than their groupings on average, there is nearly a 1 to 1 ratio in increasing
+                        happiness and larger GDP per capita. It is, however, noteworthy that the three nations with the
+                        highest GDP have a high happiness score, but only one scores above 7. On average, it appears
+                        that money can buy happiness, but it certainly isn’t the only factor.
 
                     </p>
                 </div>

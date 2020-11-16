@@ -18,50 +18,66 @@
 <body>
     <!--Navigation/Header-->
     <div class="jumbotron">
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Menu
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <h5 class="dropdown-header">Index Plots</h5>
-                <a class="dropdown-item" href="#">Social Support</a>
-                <a class="dropdown-item" href="#">Generosity</a>
-                <a class="dropdown-item" href="#">GDP per Capita</a>
-                <a class="dropdown-item" href="#">Health/Life Expectancy</a>
-                <a class="dropdown-item" href="#">Autonomy</a>
-                <a class="dropdown-item" href="#">Corruption</a>
-                <div class="dropdown-divider"></div>
-                <h5 class="dropdown-header">Analysis/Data</h5>
-                <a class="dropdown-item" href="#">Comparisons</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Data Source</a>
-            </div>
-            <h1>The Unbearable Happiness of Finland</h1>
+        <div class="navbar">
+            <a href="index.html">
+                <h1>The Unbearable Happiness of Finland</h1>
+            </a>
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse dropleft" id="navbarNavDropdown">
+                    <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Menu
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <h5 class="dropdown-header">Index Plots</h5>
+                            <a class="dropdown-item" href="Resources/support.html">Social Support</a>
+                            <a class="dropdown-item" href="Resources/generosity.html">Generosity</a>
+                            <a class="dropdown-item" href="Resources/gdp.html">GDP per Capita</a>
+                            <a class="dropdown-item" href="Resources/health.html">Health/Life Expectancy</a>
+                            <a class="dropdown-item" href="Resources/autonomy.html">Autonomy</a>
+                            <a class="dropdown-item" href="Resources/corruption.html">Corruption</a>
+                            <div class="dropdown-divider"></div>
+                            <h5 class="dropdown-header">Analysis/Data</h5>
+                            <a class="dropdown-item" href="Resources/comparisons.html">Comparisons</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="Resources/data.html">Data Source</a>
+                        </div>
+                    </a>
+
+                </div>
+            </nav>
+
         </div>
+
     </div>
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-12 col-md-8">
+            <div class="col-lg-8 col-md-8">
                 <div class="card" style="width: 70rem;">
                     <h2>Happiness, Ranked</h2>
                     <br>
                     <p style="float: left;"><img src="Resources/assets/images/boxplot.jpeg">
-                        Each year. the UN Sustainable Development Solutions Network compiles the <strong>World Happiness
+                        Each year. the UN Sustainable Development Solutions Network compiles the <strong>World
+                            Happiness
                             Report</strong>, an ambitious annual publication examining the level of happiness of its
                         respondents. This data is aggregated by country and cross referenced by human development
                         indices, including freedoms by county, perceived corruption of government officials, GDP per
                         capita, etc.
-                        <br><br>Essentially, a nerdy group of scientists look at how happy people are based on national
+                        <br><br>Essentially, a nerdy group of scientists look at how happy people are based on
+                        national
                         circumstance.
-                        <br><br>This project seeks to analyze the 2019 results from 156 countries and identify common
+                        <br><br>This project seeks to analyze the 2019 results from 156 countries and identify
+                        common
                         patterns. Each graph plots a nation’s happiness score and a human development index and
-                        highlights the overall rank of each country within the scatterplot. This will allow us to see
+                        highlights the overall rank of each country within the scatterplot. This will allow us to
+                        see
                         where higher and lower ranked countries fall within the dataset.
-                        <br><br>Click on a graph to the side or in the menu button to view individual indices. You can
-                        also compare multiple graphs and review the source data. Let’s get started!
-
+                        <br><br><strong>Click on a graph to the side or in the menu button</strong> to view
+                        individual
+                        indices. You can
+                        also compare multiple graphs and review the source data. As will be discussed, the DARKER
+                        the
+                        dot on the scatter plot, the HIGHER the rank. Let’s get started!
                     </p>
 
                 </div>
@@ -71,29 +87,33 @@
                 <div class="card" id="sidebar-content"">
                     <h5>Plot Visualizations</h5>
                     <!-- Page Content -->
-                    <div class="row-fluid">
+                    <div class=" row-fluid">
                     <div class="img_wrap">
-                        <img class="img_img" src="Resources/assets/images/support.png">
+                        <a href="Resources/support.html"><img class="img_img"
+                                src="Resources/assets/images/support.png"></a>
                         <div class="middle">
                             <div class="img__description">Social Support</div>
                         </div>
                     </div>
                     <div class="img_wrap">
-                        <img class="img_img" src="Resources/assets/images/generosity.png">
+                        <a href="Resources/generosity.html"><img class="img_img"
+                                src="Resources/assets/images/generosity.png"></a>
                         <div class="middle">
                             <div class="img__description">Generosity</div>
                         </div>
                     </div>
-                </div><br>
+                </div>
+                <br>
                 <div class="row-fluid">
                     <div class="img_wrap">
-                        <img class="img_img" src="Resources/assets/images/gdp.png">
+                        <a href="Resources/gdp.html"><img class="img_img" src="Resources/assets/images/gdp.png"></a>
                         <div class="middle">
                             <div class="img__description">GDP per Capita</div>
                         </div>
                     </div>
                     <div class="img_wrap">
-                        <img class="img_img" src="Resources/assets/images/health.png">
+                        <a href="Resources/health.html"><img class="img_img"
+                                src="Resources/assets/images/health.png"></a>
                         <div class="middle">
                             <div class="img__description">Health/Life Expectancy</div>
                         </div>
@@ -101,13 +121,15 @@
                 </div><br>
                 <div class="row-fluid">
                     <div class="img_wrap">
-                        <img class="img_img" src="Resources/assets/images/autonomy.png">
+                        <a href="Resources/auto.css"><img class="img_img"
+                                src="Resources/assets/images/autonomy.png"></a>
                         <div class="middle">
                             <div class="img__description">Autonomy</div>
                         </div>
                     </div>
                     <div class="img_wrap">
-                        <img class="img_img" src="Resources/assets/images/corruption.png">
+                        <a href="Resources/corruption.html"><img class="img_img"
+                                src="Resources/assets/images/corruption.png"></a>
                         <div class="middle">
                             <div class="img__description">Percieved Corruption</div>
                         </div>
